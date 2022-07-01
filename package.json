@@ -2,8 +2,11 @@
   "name": "wire-catalog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
+    "start": "parcel --open",
+    "build": "parcel build --dist-dir ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/AitorAlejandro/wire-catalog/issues"
   },
-  "homepage": "https://github.com/AitorAlejandro/wire-catalog#readme"
+  "homepage": "https://github.com/AitorAlejandro/wire-catalog#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
 }
