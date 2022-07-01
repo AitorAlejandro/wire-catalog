@@ -1,1 +1,4 @@
-console.log('Hello world!');
+import { App } from './App';
+
+const app = App.Build();
+app.start();
