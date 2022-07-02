@@ -1,3 +1,5 @@
+import { RemoteRecipeDataRetriever } from "./RemoteWireDataReceiver";
+
 export class App {
   static Build(): App {
     const app = new App();
@@ -8,6 +10,7 @@ export class App {
   }
 
   start() {
-    console.log('starting Wire Catalog app');
+    const wireDataReceiver = new RemoteRecipeDataRetriever();
+    wireDataReceiver.retrieve();
   }
 }
