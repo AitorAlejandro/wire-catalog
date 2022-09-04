@@ -1,9 +1,11 @@
-import { UUID } from "./types";
+import { UUID, Url } from "./types";
 
 export class Wire {
   id: UUID;
   source: string[];
-  target: string[];
+  target: string[]
+  length: number | null;
+  picture: Url;
 
   constructor() { }
 }
