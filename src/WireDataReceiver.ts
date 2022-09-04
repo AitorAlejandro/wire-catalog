@@ -1,5 +1,6 @@
 import { IWireDataRetriever } from "./IWireDataRetriever";
+import { Wire } from "./Wire";
 
 export abstract class WireDataRetriever implements IWireDataRetriever {
-  abstract retrieve(): any;
+  abstract retrieve(): Promise<Wire[]>;
 }
