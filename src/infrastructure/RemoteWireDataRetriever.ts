@@ -1,4 +1,4 @@
-import { Wire } from "./domain/Wire";
+import { Wire } from "../domain/Wire";
 import { WireDataRetriever } from "./WireDataReceiver";
 
 export class RemoteWireDataRetriever extends WireDataRetriever {

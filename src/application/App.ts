@@ -1,4 +1,4 @@
-import { RemoteWireDataRetriever } from "./RemoteWireDataRetriever";
+import { RemoteWireDataRetriever } from "../infrastructure/RemoteWireDataRetriever";
 
 export class App {
   static Build(): App {

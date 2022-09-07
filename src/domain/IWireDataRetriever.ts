@@ -1,4 +1,4 @@
-import { Wire } from "./domain/Wire";
+import { Wire } from "./Wire";
 
 export interface IWireDataRetriever {
   retrieve(): Promise<Wire[]>;

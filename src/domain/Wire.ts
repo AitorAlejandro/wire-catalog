@@ -1,4 +1,4 @@
-import { UUID, Url } from "../types";
+import { UUID, Url } from "./types";
 
 export class Wire {
   id: UUID;
