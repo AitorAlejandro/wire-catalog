@@ -1,4 +1,4 @@
-import { RemoteRecipeDataRetriever } from "./RemoteWireDataReceiver";
+import { RemoteWireDataRetriever } from "./RemoteWireDataRetriever";
 
 export class App {
   static Build(): App {
@@ -10,7 +10,7 @@ export class App {
   }
 
   start() {
-    const wireDataReceiver = new RemoteRecipeDataRetriever();
+    const wireDataReceiver = new RemoteWireDataRetriever();
     wireDataReceiver.retrieve();
   }
 }

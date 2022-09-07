@@ -4,13 +4,13 @@
     "source": ["installation"],
     "target": ["maximized"],
     "length": null,
-    "picture": ""
+    "pictures": [""]
   },
   {
     "id": "6a7c1e6b-d194-4354-8b66-ae7b4d4d67c0",
     "source": ["Realigned"],
     "target": ["frame"],
     "length": null,
-    "picture": ""
+    "pictures": [""]
   }
 ]
