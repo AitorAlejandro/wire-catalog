@@ -1,6 +1,7 @@
-import { RemoteWireDataRetriever } from "../infrastructure/RemoteWireDataRetriever";
+import { IApp } from './IApp';
+import { startApp } from './startApp';
 
-export class App {
+export class App implements IApp {
   static Build(): App {
     const app = new App();
     return app;
@@ -10,7 +11,6 @@ export class App {
   }
 
   start() {
-    const wireDataReceiver = new RemoteWireDataRetriever();
-    wireDataReceiver.retrieve();
+    startApp();
   }
 }
