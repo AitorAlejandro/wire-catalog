@@ -2,7 +2,7 @@ import { Wire } from "../domain/Wire";
 import { WireDataRetriever } from "./WireDataReceiver";
 
 export class RemoteWireDataRetriever extends WireDataRetriever {
-  public retrieve(): Promise<Wire[]> {
+  public async retrieve(): Promise<Wire[]> {
     return this.getData();
   }
 
