@@ -1,5 +1,5 @@
 import { Wire } from "./Wire";
 
-export interface IWireDataRetriever {
+export interface IWireDataRequester {
   retrieve(): Promise<Wire[]>;
 }

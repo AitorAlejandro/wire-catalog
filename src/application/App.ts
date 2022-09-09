@@ -1,5 +1,5 @@
 import { IApp } from './IApp';
-import { retrieveInitialData } from './RetrieveInitialData';
+import { requestInitialData } from './RequestInitialData';
 
 export class App implements IApp {
   static Build(): App {
@@ -11,6 +11,6 @@ export class App implements IApp {
   }
 
   start() {
-    retrieveInitialData();
+    requestInitialData();
   }
 }
