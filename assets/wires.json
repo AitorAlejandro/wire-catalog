@@ -1,16 +1,21 @@
 [
   {
     "id": "b68f4b5c-7707-4944-b8ab-62f8c4ecc151",
-    "source": ["installation"],
-    "target": ["maximized"],
-    "length": null,
-    "pictures": [""]
-  },
-  {
-    "id": "6a7c1e6b-d194-4354-8b66-ae7b4d4d67c0",
-    "source": ["Realigned"],
-    "target": ["frame"],
-    "length": null,
+    "connectors": [
+      {
+        "name": "USB",
+        "type": "TYPE_B",
+        "version": "1.0",
+        "sex": "MALE"
+      },
+      {
+        "name": "USB",
+        "type": "TYPE_C",
+        "version": "1.0",
+        "sex": "MALE"
+      }
+    ],
+    "length": 50,
     "pictures": [""]
   }
 ]
